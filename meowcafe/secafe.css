@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+   
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+
+}
+.top{
+    width: 80%;
+    margin: auto;
+}
+body {
+    background-image: url('lass.jpg');
+    background-size: cover;
+    background-position:bottom;
+}
+.logo{
+    font-size: 35px;
+    color:rgb(241, 153, 167);
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    color: palevioletred;
+    text-shadow: 0 0 25px rgb(245, 137, 173),
+                 0 0 25px rgb(242, 136, 171);
+    
+}
+
+.span{
+    color:palevioletred;
+}
+.navbar{
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+   
+}
+.navbar a{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.navbar ul{
+    flex:1 ;
+    text-align: right;
+}
+.navbar ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 0 20px;
+    font-size: 20px;
+}
+.navbar ul li i{
+    text-decoration: none;
+    color:palevioletred;
+    padding: 0 10px;
+    cursor:pointer;  
+}
+.navbarul li :hover{
+    color: whitesmoke;
+    transition: 0.3s ease;
+}
+.banner{
+    display: flex;
+    margin-top: 80px;
+}
+.left{
+    flex-basis: 40%;
+    text-align: left;
+    font-size: 19px;
+    
+}
+.left h1{
+    position: absolute;
+    right:30px;
+    color: rgb(211, 98, 117);
+    font-size: 35px;
+    
+}
+.left p{
+    position: absolute;
+    right: 30px;
+    top: 30%;
+    font-size: 20px;
+    color: rgb(163, 109, 118);
+}
+.search {
+    width: 95%;
+    height: 80px;
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    margin: 10px 0 30px;
+}
+.search i{
+    cursor: pointer;
+
+}
+.serach input{
+    width: 100%;
+    height: 50px;
+    margin-left: 25px;
+    font-size: 27px;
+    border: 0;
+    outline: none;
+
+}
+.right {
+     position: absolute;
+     left: 50px;
+    flex-basis: 60%;
+}
+.right img {
+    width: 80%;
+    border-radius: 12px;
+       
+}
