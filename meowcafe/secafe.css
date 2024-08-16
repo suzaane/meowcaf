@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-   
     margin: 0;
     padding: 0;
     font-family: cursive;
@@ -96,11 +95,12 @@ body {
 }
 .search i{
     cursor: pointer;
+   
 
 }
 .serach input{
     width: 100%;
-    height: 50px;
+    height: 50%;
     margin-left: 25px;
     font-size: 27px;
     border: 0;
@@ -116,4 +116,30 @@ body {
     width: 80%;
     border-radius: 12px;
        
+}
+.item{
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    top: 10cap;
+    left: 48cap;
+    width: 28%;
+    height: 50%;
+    background-color: rgb(245, 200, 208,0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px ;
+}
+.item p{
+    text-align: left;
+    display:contents;
+    padding: 20px;
+}
+.dish{
+    text-align: left;
+    width: 75%;
+  
+}
+.price{
+    text-align:right;
+    width: 25%;
 }
